@@ -5,10 +5,12 @@
 # 4. логирование уникальных исключений + сообщение пользователю 
 # 5. сервер (через вебхук, щас пока поллинг)
 
+pip install -r requirements.txt
+
 import logging
 from aiogram import Bot, Dispatcher, types, executor
 
-API_TOKEN = '7242178335:AAFbSlGX-cqoI_1Bgv0Omo5_viR0OEmin2M'
+API_TOKEN = 7242178335:AAFbSlGX-cqoI_1Bgv0Omo5_viR0OEmin2M
 logging.basicConfig(level=logging.INFO)
 
 bot = Bot(token=API_TOKEN)
