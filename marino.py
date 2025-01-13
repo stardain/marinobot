@@ -10,6 +10,9 @@ pip install -r requirements.txt
 import logging
 from aiogram import Bot, Dispatcher, types, executor
 
+import messages
+import config
+
 API_TOKEN = 7242178335:AAFbSlGX-cqoI_1Bgv0Omo5_viR0OEmin2M
 logging.basicConfig(level=logging.INFO)
 
