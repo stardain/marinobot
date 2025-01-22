@@ -6,7 +6,7 @@
 # 4. логирование уникальных исключений + сообщение пользователю 
 # 5. сервер (через вебхук как-то)
 6. я сосала
-"""git 
+"""
 
 import logging
 from aiogram import Bot, Dispatcher, types
