@@ -5,7 +5,8 @@
 # 3. обработка базовых исключений
 # 4. логирование уникальных исключений + сообщение пользователю 
 # 5. сервер (через вебхук как-то)
-"""
+6. я сосала
+"""git 
 
 import logging
 from aiogram import Bot, Dispatcher, types
@@ -33,5 +34,3 @@ async def echo_message(message: types.Message):
 
 if __name__ == '__main__':
     Dispatcher.start_polling(dp, skip_updates=True)
-
-# git remote add origin https://github.com/stardain/marinobot.git
